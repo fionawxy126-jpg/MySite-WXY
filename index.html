@@ -505,12 +505,26 @@ Into Castelfranco Town</h3>
         }
         // --- 3. 详情弹窗与数据 ---
         const projectData = { 
-            'project 1': { title: 'AI Research & Development', meta: 'AI Agent Workflow System', desc: '研究并开发AI工作流系统，提升行业运行效率。', images: ['https://postimg.cc/bG0WQbBH][img]https://i.postimg.cc/bG0WQbBH/Architect-Portfolio-202512.jpg[/img][/url]'] },
-            'project 2': { title: 'Llandaff Gallery', meta: 'Sustainable Parametric Design', desc: '运用参数化设计和CFD参数化模拟优化的可持续场馆设计。', images: ['https://i.postimg.cc/G2sDxRx6/Architect-Portfolio-202527.jpg','https://i.postimg.cc/7Y4z0pGS/Architect-Portfolio-202526.jpg','https://i.postimg.cc/P538GJ6p/Architect-Portfolio-20255.jpg','https://i.postimg.cc/SQ62SDTq/dui-bi03.png','https://i.postimg.cc/6pk46gXp/0021.png'] },
-            'project 3': { title: 'Environmental Passive Design', meta: 'CFD/GH/LB Simulation & Optimization', desc: '结合Honeybee/Ladybug CFD模拟与Enscape渲染的环境分析方案。', images: ['https://i.postimg.cc/RZjpMs80/Architect-Portfolio-202512.jpg','https://i.postimg.cc/9FkJpgc9/Architect-Portfolio-202513.jpg','https://i.postimg.cc/wMvQ5LPQ/Architect-Portfolio-202514.jpg','https://i.postimg.cc/8c6jVCrG/Centre-Point-House-Section-ju-bu-jian-tou002.png','https://i.postimg.cc/CMzP9nmk/1m-Public-Plaza-wind001.png','https://i.postimg.cc/P5kSL3Tt/Architect-Portfolio-202515.jpg'] }
-            'project 4': { title: 'Community Center in Castelfranco', meta: 'Sustainable Community Design', desc: '基于对当地居民的调研，设计流线型可持续社区中心，提供活动室，Cafe，求职中心以解决小镇居民诉求，提升居民参与度与城镇凝聚力。', images: ['https://i.postimg.cc/26PyjZ3n/Community-Center-Castelfranco-Rendering-01.jpg','https://i.postimg.cc/9FhLZt2C/Community-Center-Castelfranco-Rendering-02.jpg','https://i.postimg.cc/3x3zLZ8P/Community-Center-Castelfranco-Rendering-03.jpg'] },
-            'SWP': { title: 'SWP Works', meta: 'London Practice', desc: '参与沙特城市规划改造项目和比利时公共建筑项目的Rhino建模与参数化模拟。', images: ['https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=800'] },
-            'BAID': { title: 'BAID Works', meta: 'London Practice', desc: '参与伦敦多处集合住宅设计。', images: ['https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800'] },
+            'project 1': { title: 'AI Research & Development', meta: 'AI Agent Workflow System', desc: '研究并开发AI工作流系统，提升行业运行效率。', images: ['https://i.postimg.cc/7ZmPdzQ3/coze_客服系统.png'] },
+            'project 2': { title: 'Llandaff Gallery', meta: 'Sustainable Parametric Design', desc: '运用参数化设计和CFD参数化模拟优化的可持续场馆设计。', images: ['https://i.postimg.cc/G2sDxRx6/Architect-Portfolio-202527.jpg',
+            'https://i.postimg.cc/7Y4z0pGS/Architect-Portfolio-202526.jpg',
+            'https://i.postimg.cc/P538GJ6p/Architect-Portfolio-20255.jpg',
+            'https://i.postimg.cc/SQ62SDTq/dui-bi03.png',
+            'https://i.postimg.cc/6pk46gXp/0021.png'] },
+            'project 3': { title: 'Environmental Passive Design', meta: 'CFD/GH/LB Simulation & Optimization', desc: '结合Honeybee/Ladybug CFD模拟与Enscape渲染的环境分析方案。', images: ['https://i.postimg.cc/RZjpMs80/Architect-Portfolio-202512.jpg',
+            'https://i.postimg.cc/9FkJpgc9/Architect-Portfolio-202513.jpg',
+            'https://i.postimg.cc/wMvQ5LPQ/Architect-Portfolio-202514.jpg',
+            'https://i.postimg.cc/8c6jVCrG/Centre-Point-House-Section-ju-bu-jian-tou002.png',
+            'https://i.postimg.cc/CMzP9nmk/1m-Public-Plaza-wind001.png',
+            'https://i.postimg.cc/P5kSL3Tt/Architect-Portfolio-202515.jpg'] },
+            'project 4': { title: 'Community Center in Castelfranco', meta: 'Sustainable Community Design', desc: '基于对当地居民的调研，设计流线型可持续社区中心，提供活动室，Cafe，求职中心以解决小镇居民诉求，提升居民参与度与城镇凝聚力。', images: ['https://i.postimg.cc/26PyjZ3n/Community-Center-Castelfranco-Rendering-01.jpg',
+            'https://i.postimg.cc/9f3drrhy/Architect-Portfolio-202518.jpg',
+            'https://i.postimg.cc/rF0RxMgg/Architect-Portfolio-202517.jpg',
+            'https://i.postimg.cc/MGDnqTK7/Architect-Portfolio-202519.jpg',
+            'https://i.postimg.cc/rsds1NGx/Architect-Portfolio-202520.jpg',
+            'https://i.postimg.cc/fT9kk5T2/Architect-Portfolio-202521.jpg'] },
+            'SWP ': { title: 'SWP Works', meta: 'London Practice', desc: '参与沙特城市规划改造项目和比利时公共建筑项目的Rhino建模与参数化模拟。', images: ['https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=800'] },
+            'BAID ': { title: 'BAID Works', meta: 'London Practice', desc: '参与伦敦多处集合住宅设计。', images: ['https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800'] },
         };
         let currentProjectId = null;
         function showProject(id) {
