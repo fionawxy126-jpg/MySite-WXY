@@ -464,13 +464,13 @@ Into Castelfranco Town</h3>
         const canvas = document.getElementById('particle-canvas');
         const ctx = canvas.getContext('2d');
         let particles = [];
-        let mouse = { x: -100, y: -100 };
+        let mouse = { x: -200, y: -100 };
         function initParticles() {
             canvas.width = window.innerWidth;
-            canvas.height = 500;
+            canvas.height = 450;
             const bgImage = new Image();
             bgImage.crossOrigin = "anonymous";
-            bgImage.src = "https://i.postimg.cc/XvwjfjpT/lun-dun-tai-wu-shi-he.avif";
+            bgImage.src = "https://i.postimg.cc/rFt6s5Mr/xing-yue-ye-rong-he-ban.png";
               function createParticles(imgData) {
                 const tempCanvas = document.createElement('canvas');
                 const tempCtx = tempCanvas.getContext('2d');
@@ -488,7 +488,7 @@ Into Castelfranco Town</h3>
                                 x: x * stepX, y: waveY + (y - 50) * 3,
                                 ox: x * stepX, oy: waveY + (y - 50) * 3,
                                 color: `rgb(${data[i]},${data[i+1]},${data[i+2]})`,
-                                size: 1.0
+                                size: 1.2
                             });
                         }
                     }
